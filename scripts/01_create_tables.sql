@@ -50,7 +50,7 @@ GO
 
 --4. Appointments Table
 CREATE TABLE Appointments(
-    AppointmentID INT PRIMARY KEY IDENTITY(1,1)
+    AppointmentID INT PRIMARY KEY IDENTITY(1,1),
     PatientID INT NOT NULL,
     DoctorID INT NOT NULL,
     AppointmentDate DATE NOT NULL,
