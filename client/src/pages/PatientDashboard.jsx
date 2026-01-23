@@ -13,7 +13,7 @@ function PatientDashboard() {
                 </div>
                 <div className="mt-4 md:mt-0">
                     <Link
-                        to="/patient/book"
+                        to="/patient-dashboard/book"
                         className="bg-white text-blue-600 font-bold py-3 px-6 rounded-lg shadow hover:bg-gray-100 transition transform hover:-translate-y-1"
                     >
                         + Book New Appointment

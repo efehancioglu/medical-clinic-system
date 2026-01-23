@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Register from './pages/Register';
+import BookAppointment from './pages/BookAppointment';
 
 import Layout from './components/Layout';
 import PatientLayout from './components/PatientLayout';
@@ -28,11 +29,7 @@ function App() {
 
         <Route path='/patient-dashboard' element={<PatientLayout />}>
           <Route index element={<PatientDashboard />} />
-          <Route path='book' element={
-            <div>
-              Randevu Alma Sayasi (Yapilacak)
-            </div>
-          } />
+          <Route path='book' element={<BookAppointment />} />
         </Route>
 
       </Routes>
